@@ -5,4 +5,5 @@ jobs:
     uses: LeiZhaoGFT/reusable-workflow/.github/workflows/callee.yaml@main
     with:
       name: mona
+    secrets: inherit  
 
