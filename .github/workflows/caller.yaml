@@ -4,5 +4,5 @@ jobs:
   call:
     uses: LeiZhaoGFT/reusable-workflow/.github/workflows/callee.yaml@main
     with:
-      username: mona
+      name: mona
 
