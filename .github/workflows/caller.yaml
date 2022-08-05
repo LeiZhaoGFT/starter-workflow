@@ -2,7 +2,7 @@ on: push
 
 jobs:
   call:
-    uses: reusable-workflow/.github/workflows/callee.yaml@main
+    uses: LeiZhaoGFT/reusable-workflow/.github/workflows/callee.yaml@main
     with:
       username: mona
 
