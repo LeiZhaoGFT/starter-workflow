@@ -1,9 +1,11 @@
-on: [push, workflow_dispatch]
+on: [pull_request, push, workflow_dispatch]
 
 jobs:
-  call:
+  tfe:
+    strategy:
+      matrix:
+        version: [1, 2]
     uses: LeiZhaoGFT/reusable-workflow/.github/workflows/callee.yaml@main
     with:
       name: mona
     secrets: inherit  
-
