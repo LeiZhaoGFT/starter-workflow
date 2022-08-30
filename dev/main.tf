@@ -1,7 +1,7 @@
 # main.tf
 
 module "random_id" {
-  source    = "../modules"
+  source    = "./modules"
 }
 
 output "random_id" {
